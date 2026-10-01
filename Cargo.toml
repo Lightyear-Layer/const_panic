@@ -1,6 +1,6 @@
 [package]
 name = "const_panic"
-version = "0.2.17"
+version = "0.2.18"
 authors = ["rodrimati1992 <rodrimatt1985@gmail.com>"]
 edition = "2021"
 license = "Zlib"
@@ -24,9 +24,10 @@ version = "1.9.0"
 default-features = false
 
 [dependencies.const_panic_proc_macros]
-version = "=0.2.17"
+version = "=0.2.18"
 path = "./const_panic_proc_macros/"
 optional = true
+registry = "kellnr"
 
 [dev-dependencies.arrayvec]
 version = "0.7"
